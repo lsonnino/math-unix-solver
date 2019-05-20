@@ -1,0 +1,10 @@
+#!/bin/bash
+
+source path.sh
+
+rm -R $BIN
+rm -R $INSTALL_PATH
+echo "Bin path still exists. Please remove:"
+echo $BIN
+echo -n "from "
+echo ${HOME}/.bashrc

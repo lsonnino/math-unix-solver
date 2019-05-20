@@ -1,0 +1,17 @@
+#!/bin/bash
+
+source path.sh
+
+echo " > Compiling"
+make
+
+echo " > Building install folders"
+mkdir $INSTALL_PATH
+mkdir $BIN
+
+echo " > Installing"
+chmod +x secSolver
+cp secSolver $BIN/
+
+echo " > Adding path"
+echo $BIN >> ${HOME}/.bashrc
