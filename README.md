@@ -43,7 +43,7 @@ chmod +x INSTALL
 Simply execute:
 
 ```bash
-./INSTALL
+sudo ./INSTALL
 ```
 
 
@@ -61,12 +61,8 @@ chmod +x UNINSTALL
 Simply execute
 
 ```bash
-./UNINSTALL
+sudo ./UNINSTALL
 ```
-
-
-
-The you still need to remove the bin path from the `~/.bashrc` file
 
 
 

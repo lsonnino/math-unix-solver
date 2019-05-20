@@ -5,13 +5,10 @@ source path.sh
 echo " > Compiling"
 make
 
-echo " > Building install folders"
-mkdir $INSTALL_PATH
-mkdir $BIN
-
 echo " > Installing"
+echo "Installation folder:"
+echo $INSTALL_PATH
 chmod +x secSolver
-cp secSolver $BIN/
+sudo cp secSolver $INSTALL_PATH/
 
-echo " > Adding path"
-echo $BIN >> ${HOME}/.bashrc
+echo " > done"
