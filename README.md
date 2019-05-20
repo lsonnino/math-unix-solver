@@ -68,4 +68,4 @@ sudo ./UNINSTALL
 
 ## License
 
-This library is under the **GNU GENERAL PUBLIC LICENSE**. Please see the **LICENSE file** for more informations.
+This library is under the **GNU GENERAL PUBLIC LICENSE**. Please see the [**LICENSE file**](https://github.com/lsonnino/math-unix-solver/blob/master/LICENSE) for more informations.
